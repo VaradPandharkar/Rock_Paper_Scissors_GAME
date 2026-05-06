@@ -37,7 +37,6 @@ Rock_Paper_scissors_Game/
 ├── intro.mp3
 └── stats.json               # Auto-generated on first run
 
-
 ## 🎮 Controls
 
 | Action | Control |
@@ -71,18 +70,7 @@ The AI uses a **Markov chain transition model** — it tracks which move you pla
 | Loss | +5 XP |
 | Level Up | Every 100 XP |
 
-Stats are saved automatically to `stats.json`.
-
----
-
-## 🛠️ Built With
-
-- [Python](https://www.python.org/)
-- [Pygame-CE](https://pyga.me/)
-- [MediaPipe](https://mediapipe.dev/) *(optional)*
-- [OpenCV](https://opencv.org/) *(optional)*
-
----
+Stats are saved automatically to `stats.json.
 
 ## 👥 Team
 
