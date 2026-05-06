@@ -36,48 +36,7 @@ Rock_Paper_scissors_Game/
 ├── tie.wav
 ├── intro.mp3
 └── stats.json               # Auto-generated on first run
-```
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- pip
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/rock-paper-scissors.git
-cd rock-paper-scissors
-
-# Install dependencies
-python -m pip install pygame-ce opencv-python mediapipe
-```
-
-> `opencv-python` and `mediapipe` are optional — only needed for camera/gesture mode.
-
-### Run the Game
-
-```bash
-python rock_paper_scissors.py
-```
-
----
-
-## 🦎 Lizard & Spock Upgrade (Optional)
-
-Want to play the **5-choice** variant (Rock · Paper · Scissors · Lizard · Spock)?
-
-```bash
-python patch_game.py
-python rock_paper_scissors.py
-```
-
----
 
 ## 🎮 Controls
 
@@ -122,12 +81,6 @@ Stats are saved automatically to `stats.json`.
 - [Pygame-CE](https://pyga.me/)
 - [MediaPipe](https://mediapipe.dev/) *(optional)*
 - [OpenCV](https://opencv.org/) *(optional)*
-
----
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
